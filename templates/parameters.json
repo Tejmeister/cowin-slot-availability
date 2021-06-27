@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workflows_cowin_la_01_name": {
+            "value": null
+        },
+        "connections_twilio_externalid": {
+            "value": null
+        },
+        "subscription_id": {
+            "value": null
+        },
+        "resource_group": {
+            "value": null
+        },
+        "from_phone_number": {
+            "value": null
+        },
+        "to_phone_number": {
+            "value": null
+        },
+        "location": {
+            "value": null
+        }
+    }
+}
