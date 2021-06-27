@@ -16,6 +16,10 @@ New-AzResourceGroupDeployment `
 	-Name <DEPLOYMENT_NAME> `
 	-ResourceGroup <RESOURCE_GROUP> `
 	-TemplateFile <TEMPLATE_FILE_PATH> `
-	-TemplateParameterFile <PARAMETERS_FILE_PATH>
-	
+	-TemplateParameterFile <PARAMETERS_FILE_PATH>	
 ```
+
+## Pre-requisites
+1. Microsoft Azure account
+2. Twilio account
+3. Registered twilio phone number (only registered twilio phone numbers are eligible to receive SMSs if using trial version of twilio)
